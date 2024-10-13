@@ -91,6 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget vegetableCard() {
     double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -98,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/Media.png",
             height: 140,
-            width: width / 5,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
@@ -124,7 +125,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget fruitsCard() {
+    double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -132,7 +135,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/fruits.png",
             height: 140,
-            width: 177,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
@@ -158,7 +161,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget breadCard() {
+    double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -166,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/bread.png",
             height: 140,
-            width: 177,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
@@ -192,7 +197,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget sweetsCard() {
+    double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -200,7 +207,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/sweets.png",
             height: 140,
-            width: 177,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
@@ -226,7 +233,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget chineeseCard() {
+    double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -234,7 +243,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/chinese.png",
             height: 140,
-            width: 177,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
@@ -260,7 +269,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget coffeeCard() {
+    double width = MediaQuery.of(context).size.width;
     return Card(
+      color: const Color.fromARGB(255, 153, 240, 155),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -268,7 +279,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Image.asset(
             "assets/coffee.png",
             height: 140,
-            width: 177,
+            width: width / 2.5,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
